@@ -1,4 +1,4 @@
-# Graduate-Thesis
+# Graduate thesis
 Salient Object Detection (SOD) using the self-attention-based Object Contextual Representation module built on top of the PFSNet model.
 ## [PFSNet](http://cvteam.net/papers/2021_AAAI_Pyramidal%20Feature%20Shrinking%20for%20Salient%20Object%20Detection.pdf)
 1. Backbone

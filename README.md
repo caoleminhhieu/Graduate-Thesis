@@ -18,4 +18,3 @@ A saliency vector which represents the salient intensity is computed by weighted
 The OCR module will adjust the salient intensity of each pixel vector based on the similarity with the saliency vector.
 ![OCR module](./images/OCR.png)
 ## Results
-![Expressive results](./images/Results.png)

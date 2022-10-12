@@ -1,0 +1,7 @@
+Bộ dữ liệu huấn luyện
+https://drive.google.com/file/d/1NxCeP18RSFIZxq557lWAoN6DdEnY78_j/view?usp=sharing
+
+Các bộ dữ liệu kiểm thử
+https://drive.google.com/file/d/18x_Fwe3MYtRRhNSpUzB1wA5PKL37t-AB/view?usp=sharing
+
+Bỏ tất cả các bộ dữ liệu vào cùng một folder data.

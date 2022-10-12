@@ -11,7 +11,7 @@ Salient Object Detection (SOD) using the self-attention-based Object Contextual 
   - Utilize dilated convolution to increase the model's receptive field (larger receptive field is required for Salient Object Detection > Object Detection > Image classification) 
 3. Auxiliary classifier
 An intermidiate saliency map is predicted on the final feature map obtained from the neck. 
-## [Object Contextual Representation - OCR] (https://arxiv.org/pdf/1909.11065.pdf)
+## [Object Contextual Representation - OCR](https://arxiv.org/pdf/1909.11065.pdf)
 Inspired by self-attention based OCR in Semantic segmentation task, implement one for SOD.
 A saliency vector which represents the salient intensity is computed by weighted averaging the final feature map in PFSNet with the intermidiate saliency map. This vector acts like a Key and Value in self-attention. The pixel vectors obtained from flattening the final feature map along the spatial axis (H, W) acts as Queries.
 The OCR module will adjust the salient intensity of each pixel vector based on the similarity with the saliency vector.

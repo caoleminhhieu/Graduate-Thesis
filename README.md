@@ -3,8 +3,7 @@ Salient Object Detection (SOD) using the self-attention-based Object Contextual 
 ## [PFSNet](http://cvteam.net/papers/2021_AAAI_Pyramidal%20Feature%20Shrinking%20for%20Salient%20Object%20Detection.pdf)
 1. Backbone
 Resnet-50
-2. Neck/Feature network
-2 phases multi-level features integration. Only fuse two adjacent feature maps to avoid feature attenuation.
+2. Neck/Feature network2 phases multi-level features integration. Only fuse two adjacent feature maps to avoid feature attenuation.
 ..1. Phase 1 use top-down path feature integration applied on the feature maps obtained from the backbone.
 ..2. Phase 2 use pyramidal shape to fuse 2 adjacent feature maps obtained from phase 1.
 ..3. Channel Attention Module (WCAT in the paper) is applied whenever 2 feature maps are combined.

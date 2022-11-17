@@ -18,4 +18,5 @@ A saliency vector which represents the salient intensity is computed by weighted
 The OCR module will adjust the salient intensity of each pixel vector based on the similarity with the saliency vector.
 ![OCR module](./images/OCR.png)
 ## Results
+Results are obtained as the outputs of the model without any post-processing. The OCR module can remove non-salient regions of the image, but also recover salient objects (or its parts) compared to the original PFSNet model. This demonstrates that the feature map obtained from PFSNet contains sufficient salient information of each pixel which can be utilized by OCR to provide global context. As a result, the saliency intensity of each pixel can be adaptively modified based on the whole-image context.
 ![Expressive results](./images/Results.png)
